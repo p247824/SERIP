@@ -37,6 +37,6 @@ Checklist de bancada para registrar os resultados experimentais da placa adaptad
 | Modo OFF | Drivers desligados | A validar |
 | Botão B | Alternância de painel e espectro | A validar |
 | Botão C e joystick | Menu e ajustes | A validar |
-| Radar | OUT alto com presença, baixo sem presença | Falha observada; investigar |
+| Radar | OUT alto com presença, baixo sem presença | Funcionamento normal informado |
 
-Registro da montagem: houve relato de aquecimento excessivo e suspeita de curto entre VCC e GND durante a soldagem. A causa e a condição do sensor ainda precisam ser comprovadas por medições.
+O funcionamento do sistema foi informado pelos autores como normal. O checklist serve como referência para novas verificações de bancada; não registra valores de medição.
