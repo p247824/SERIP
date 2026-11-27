@@ -79,6 +79,14 @@ O sensor e a matriz utilizam alimentação de 5 V e terra comum. A saída digita
 
 O esquemático de montagem do Projeto 2, fornecido com o código, também está disponível em [PDF](docs/esquematico_montagem.pdf) e [SVG](docs/esquematico_montagem.svg). Os arquivos editáveis do KiCad, a biblioteca de footprints e os Gerbers de fabricação do Projeto 3 estão disponíveis em [pcb-prototyping/](pcb-prototyping/). Consulte o [guia do hardware](pcb-prototyping/README.md) para abrir o projeto ou acessar os arquivos de fabricação.
 
+## Implementação física
+
+<p align="center">
+  <img src="docs/images/prototipo_serip.jpeg" alt="Montagem física do SERIP com BitDogLab V7, PCB dedicada, radar HLK-LD2410B e matriz MAX7219" width="480">
+</p>
+
+*Protótipo do Projeto 3 em funcionamento, com os periféricos conectados à BitDogLab V7 por meio da PCB dedicada.*
+
 ## Operação
 
 | Comando | Ação |
