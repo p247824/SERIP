@@ -77,7 +77,7 @@ O sensor e a matriz utilizam alimentação de 5 V e terra comum. A saída digita
 
 [Consultar esquemático da PCB](docs/images/esquematico_pcb.png) · [Consultar relatório técnico](docs/Relatorio_Projeto_3.pdf)
 
-O esquemático de montagem do Projeto 2, fornecido com o código, também está disponível em [PDF](docs/esquematico_montagem.pdf) e [SVG](docs/esquematico_montagem.svg). Os arquivos nativos do KiCad e Gerber do Projeto 3 não vieram no pacote de código original e não estão incluídos neste repositório.
+O esquemático de montagem do Projeto 2, fornecido com o código, também está disponível em [PDF](docs/esquematico_montagem.pdf) e [SVG](docs/esquematico_montagem.svg). Os arquivos editáveis do KiCad, a biblioteca de footprints e os Gerbers de fabricação do Projeto 3 estão disponíveis em [pcb-prototyping/](pcb-prototyping/). Consulte o [guia do hardware](pcb-prototyping/README.md) para abrir o projeto ou acessar os arquivos de fabricação.
 
 ## Operação
 
@@ -153,6 +153,13 @@ SERIP/
 │   ├── esquematico_montagem.svg
 │   ├── esquematico_montagem.py
 │   └── images/
+├── pcb-prototyping/
+│   ├── serip2_sate.kicad_pro
+│   ├── serip2_sate.kicad_sch
+│   ├── serip2_sate.kicad_pcb
+│   ├── fp-lib-table
+│   ├── serip2_sate.pretty/
+│   └── gerbers/
 └── .vscode/
 ```
 
@@ -163,6 +170,7 @@ O código-fonte e os arquivos de configuração do pacote original foram preserv
 - [Relatório completo do Projeto 3 (PDF)](docs/Relatorio_Projeto_3.pdf)
 - [Esquemático de montagem anterior (Projeto 2)](docs/esquematico_montagem.pdf)
 - [Guia de validação da PCB](docs/VALIDACAO.md)
+- [Projeto KiCad e arquivos de fabricação](pcb-prototyping/README.md)
 
 **Estado atual:** sistema integrado à PCB dedicada e operando conforme as funcionalidades previstas do Projeto 3. O firmware disponibilizado é o SERIP 2, reaproveitado nesta etapa.
 
