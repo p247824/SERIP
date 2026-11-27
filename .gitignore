@@ -1,0 +1,14 @@
+/build/
+/cmake-build-*/
+/.cache/
+*.obj
+*.o
+*.elf
+*.map
+*.dis
+*.hex
+*.bin
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
