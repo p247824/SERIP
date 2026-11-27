@@ -1,0 +1,104 @@
+(footprint "PinHeader_1x05_SATE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "11111111-2222-4333-8444-000000002002")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "PinHeader_1x05_SATE"
+		(at 0 -5.2 0)
+		(layer "F.Fab")
+		(uuid "11111111-2222-4333-8444-000000002003")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11111111-2222-4333-8444-000000002004")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 11.66)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11111111-2222-4333-8444-000000002005")
+	)
+	(fp_line
+		(start 1.5 11.66)
+		(end -1.5 11.66)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11111111-2222-4333-8444-000000002006")
+	)
+	(fp_line
+		(start -1.5 11.66)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11111111-2222-4333-8444-000000002007")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "B.Cu" "B.Mask")
+		(uuid "11111111-2222-4333-8444-000000002101")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "B.Cu" "B.Mask")
+		(uuid "11111111-2222-4333-8444-000000002102")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "B.Cu" "B.Mask")
+		(uuid "11111111-2222-4333-8444-000000002103")
+	)
+	(pad "4" thru_hole circle
+		(at 0 7.62)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "B.Cu" "B.Mask")
+		(uuid "11111111-2222-4333-8444-000000002104")
+	)
+	(pad "5" thru_hole circle
+		(at 0 10.16)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "B.Cu" "B.Mask")
+		(uuid "11111111-2222-4333-8444-000000002105")
+	)
+)
