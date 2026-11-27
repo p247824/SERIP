@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SERIP2_SATE")(type "KiCad")(uri "${KIPRJMOD}/serip2_sate.pretty")(options "")(descr "Footprints customizados SATE FEEC UNICAMP"))
+)
