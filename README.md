@@ -125,15 +125,12 @@ cmake --build build
 
 ### Gravação
 
-1. Desconecte os periféricos externos até verificar a PCB.
+1. Com a placa desligada, desconecte os periféricos externos, se necessário.
 2. Conecte a placa ao USB mantendo pressionado BOOTSEL.
 3. Copie `build/SERIP.uf2` para a unidade de armazenamento exibida.
 4. Aguarde a reinicialização automática.
 
 Também está disponível o [UF2 original fornecido com o projeto](firmware/SERIP.uf2), preservado sem recompilação.
-
-> [!WARNING]
-> Antes de conectar o radar, verifique a ausência de curto-circuito entre VCC e GND e a tensão de alimentação. Foi observado aquecimento excessivo do sensor na montagem física do Projeto 3; a hipótese de ponte de solda ainda está em investigação. Não energize o módulo enquanto houver suspeita de curto.
 
 ## Estrutura do repositório
 
@@ -167,7 +164,7 @@ O código-fonte e os arquivos de configuração do pacote original foram preserv
 - [Esquemático de montagem anterior (Projeto 2)](docs/esquematico_montagem.pdf)
 - [Guia de validação da PCB](docs/VALIDACAO.md)
 
-**Estado atual:** desenvolvimento do esquemático, layout e verificações de projeto documentados no relatório; validação elétrica e funcional da placa fabricada ainda deve ser concluída. O firmware disponibilizado é o SERIP 2, reaproveitado no Projeto 3.
+**Estado atual:** sistema integrado à PCB dedicada e operando conforme as funcionalidades previstas do Projeto 3. O firmware disponibilizado é o SERIP 2, reaproveitado nesta etapa.
 
 ## Referências
 
